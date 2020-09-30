@@ -55,7 +55,7 @@ class Command extends Cliff\Command
                 continue;
             }
             if (is_dir("$dir/$entry")) {
-                if ($this->walkSourceDir("$dir/$entry")) {
+                if ($this->walkSourceDir("$dir/$entry", $rule)) {
                     return true;
                 }
             } elseif (preg_match("@\.(css|scss|less)$@", $entry)) {
