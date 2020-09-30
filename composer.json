@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "monolyth/cliff": "^0.6.1"
+        "monolyth/cliff": "^0.6.1",
+        "simoneast/simple-ansi-colors": "^1.0"
     },
     "autoload": {
         "psr-4": {
