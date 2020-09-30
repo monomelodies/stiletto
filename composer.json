@@ -9,5 +9,15 @@
             "email": "marijn@monomelodies.nl"
         }
     ],
-    "require": {}
+    "require": {
+        "monolyth/cliff": "^0.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monomelodies\\Stiletto\\": "./src"
+        }
+    },
+    "require-dev": {
+        "toast/unit": "^2.1"
+    }
 }
